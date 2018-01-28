@@ -1,5 +1,7 @@
 # Branch Acupuncture Homepage
 
+This style is based on [Grayscale](http://startbootstrap.com/template-overviews/grayscale/) a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+
 ## Gulp Tasks
 
 - `gulp` the default task that builds everything
