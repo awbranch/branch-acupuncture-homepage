@@ -6,6 +6,15 @@ body {
   height: 100%;
   color: #323232;
   background-color: white;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 1px;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
 }
 
 html {
@@ -22,34 +31,35 @@ h6 {
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
   margin: 0 0 35px;
-  letter-spacing: 12px;
+  letter-spacing: 0.3em;
   text-transform: uppercase;
 }
 
 p {
-  font-size: 16px;
-  line-height: 1.4;
-  letter-spacing: 1px;
   margin: 0 0 25px;
 }
 
 @media (min-width: 768px) {
   p {
-    font-size: 18px;
     margin: 0 0 35px;
   }
+}
+
+p.lead {
+  font-size: 150%;
+  color: #7f7f7f;
 }
 
 a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  color: #42DCA3;
+  color: #C0131E;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #1d9b6c;
+  color: #630a0f;
 }
 
 #mainNav {
@@ -176,10 +186,34 @@ a:focus, a:hover {
   padding-bottom: 100px;
 }
 
+.tab-content {
+  margin-top: 40px;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.nav-tabs .nav-link {
+  text-transform: uppercase;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 7px solid transparent;
+}
+
+.nav-tabs .nav-link.active {
+  border-bottom: 7px solid #C0131E;
+}
+
+.copy-required {
+  background-color: yellow;
+}
+
 .herbology-header {
   color: white;
   padding: 100px 0;
-  background: url("../img/herbology-bg.jpg") no-repeat center center scroll;
+  background: url("../img/herbology-bg-2.jpg") no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -196,10 +230,10 @@ a:focus, a:hover {
   background-size: cover;
 }
 
-.download-section {
+.contact-header {
   color: white;
-  background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
-  background-color: black;
+  padding: 100px 0;
+  background: url("../img/contact-bg.jpg") no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -248,6 +282,19 @@ ul.banner-social-buttons {
   ul.banner-social-buttons li:last-child {
     margin-bottom: 0;
   }
+}
+
+.faq-title {
+  font-size: 18px;
+  margin: 0;
+}
+
+.faq-list-group {
+  margin-bottom: 30px;
+}
+
+.faq-list {
+  margin: 0;
 }
 
 footer {
