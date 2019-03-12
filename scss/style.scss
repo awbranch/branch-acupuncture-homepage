@@ -232,7 +232,7 @@ a {
 .about-header {
   color: $background;
   padding: 100px 0;
-  background: url('../img/about-bg.jpg') no-repeat center center scroll;
+  background: url('../img/about-bg-2.jpg') no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -242,7 +242,7 @@ a {
 .contact-header {
   color: $background;
   padding: 100px 0;
-  background: url('../img/contact-bg.jpg') no-repeat center center scroll;
+  background: url('../img/contact-bg-2.jpg') no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -307,13 +307,13 @@ ul.banner-social-buttons {
 }
 
 footer {
+  border-top: 1px solid $divider;
   padding: 50px 0;
-  p {
-    font-size: 14px;
 
-
-    margin: 0;
+  ul {
+    list-style: none;
   }
+
 }
 
 ::-moz-selection {

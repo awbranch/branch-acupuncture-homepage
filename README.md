@@ -11,3 +11,11 @@ This style is based on [Grayscale](http://startbootstrap.com/template-overviews/
 - `gulp minify-js` minifies the themes JS file
 - `gulp copy` copies dependencies from node_modules to the vendor directory
 
+# Images
+Images came from https://www.gettyimages.com/
+
+# Published
+Published via surge
+
+ surge --domain ritzy-crush.surge.sh
+
