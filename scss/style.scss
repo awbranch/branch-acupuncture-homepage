@@ -153,8 +153,15 @@ a {
   text-align: center;
 
   color: $background;
-  background: url('../img/intro-bg.jpg') no-repeat bottom center scroll;
+
+  background:
+      /* top, transparent black, faked with gradient */
+      linear-gradient(
+              rgba(0, 0, 0, 0.35),
+              rgba(0, 0, 0, 0.35)
+      ), url('../img/intro-bg.jpg') no-repeat bottom center scroll;
   background-color: black;
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -moz-background-size: cover;
