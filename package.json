@@ -6,19 +6,11 @@
     "homepage": "https://mollybranch.com",
     "license": "MIT",
     "author": "Andrew Branch",
-    "dependencies": {
-        "bootstrap": "^4.3.1",
-        "font-awesome": "^4.7.0",
-        "jquery": "^3.3.1",
-        "jquery.easing": "^1.4.1"
+    "scripts": {
+        "server": "harp server www",
+        "compile": "harp compile www out"
     },
     "devDependencies": {
-        "browser-sync": "^2.26.3",
-        "gulp": "^3.9.1",
-        "gulp-clean-css": "^3.10.0",
-        "gulp-header": "^2.0.7",
-        "gulp-rename": "^1.2.2",
-        "gulp-sass": "^3.1.0",
-        "gulp-uglify": "^3.0.2"
+        "harp": "^0.32.0"
     }
 }
