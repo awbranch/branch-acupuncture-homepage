@@ -8,7 +8,8 @@
     "author": "Andrew Branch",
     "scripts": {
         "server": "harp server www",
-        "compile": "harp compile www out"
+        "compile": "harp compile www out",
+        "deploy": "aws s3 sync www s3://mollybranch.com  --profile molly --acl public-read --exclude \".DS_Store\" --cache-control max-age=86400"
     },
     "devDependencies": {
         "harp": "^0.32.0"
